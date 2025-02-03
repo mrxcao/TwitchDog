@@ -1,0 +1,22 @@
+{
+  "name": "twitchdog",
+  "version": "1.0.0",
+  "description": "Streaming assistant to monitor and help with lives on Twitch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "dotenv": "^16.4.7",
+    "play-sound": "^1.1.6",
+    "tmi.js": "^1.8.5"
+  },
+  "devDependencies": {
+    "eslint": "^9.19.0",
+    "jest": "^29.7.0"
+  }
+}
