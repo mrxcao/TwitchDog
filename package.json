@@ -4,7 +4,7 @@
   "description": "Streaming assistant to monitor and help with lives on Twitch",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "dev": "nodemon index.js",
     "start": "node index.js"
   },
@@ -12,8 +12,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.7.9",
     "child_process": "^1.0.2",
     "dotenv": "^16.4.7",
+    "fs": "^0.0.1-security",
+    "openai": "^4.83.0",
     "play-sound": "^1.1.6",
     "tmi.js": "^1.8.5"
   },

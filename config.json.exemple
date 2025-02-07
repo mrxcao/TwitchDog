@@ -1,0 +1,10 @@
+{
+    "voice":{"name": "nova",
+        "model": "tts-1",
+        "rate": 1.0, 
+        "pitch": 0.0
+    },
+    "lerMensagensDeComando": false,
+    "ignoreList": ["user1", "user2"],
+    "changeNameTo":[{ "old": "A", "new": "B" }]
+}
